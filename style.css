@@ -86,7 +86,8 @@
 }
 
 .container-about{
-    width: 100%;
+    display: flex;
+    justify-content: center;
     gap : 24px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -108,8 +109,14 @@
     padding: 16px;
 }
 
+.profile-content{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
 #project{
-    min-height: 100vh;
+    min-height: 340vh;
     background: #121212;
 }
 
