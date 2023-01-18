@@ -205,6 +205,10 @@
     font-size: 42px;
 }
 
+.desc-about {
+    text-align: justify;
+}
+
 #footer{
     min-height: 20vh;
     background: #323232;
