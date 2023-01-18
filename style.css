@@ -191,13 +191,18 @@
 
 @media (max-width : 901px){
 
-    .container-home{
+.container-home{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    font-weight: 600;
+    font-size: 42px;
 }
 
 #footer{
