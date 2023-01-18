@@ -37,14 +37,18 @@
 }
 
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
      width: 100%;
+     gap: 164px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.profile-context{
+/* .profile-context{
     margin-left: 120px;
-}
+} */
 
 .profile-text{
     font-weight: 700;
@@ -56,10 +60,10 @@
     font-size: 24px;
 }
 
-.profile-img{
+/* .profile-img{
     margin-right: 120px;
     
-}
+} */
 
 #about{
     min-height: 100vh;
@@ -110,7 +114,6 @@
 .box{
     display: flex;
     justify-content: center;
-    gap: 24px;
     margin-top: 24px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -127,7 +130,6 @@
 
 .text-project{
     font-size: 20px;
-    margin-bottom: 64px;
 }
 
 .card-project{
@@ -174,6 +176,10 @@
 
 .footer-social a:hover i{
     color: white;
+}
+
+@media (max-width:901px) {
+    
 }
 
 
