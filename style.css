@@ -207,6 +207,10 @@
 .desc-about {
     text-align: justify;
 }
+    
+#project {
+    min-height: 380px;
+}
 
 #footer{
     min-height: 20vh;
