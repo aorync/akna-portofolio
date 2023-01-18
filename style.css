@@ -200,7 +200,6 @@
 .profile-text{
     display: flex;
     text-align: center;
-    flex-direction: column;
     font-weight: 600;
     font-size: 42px;
 }
