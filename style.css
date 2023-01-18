@@ -30,7 +30,7 @@
 
 #home{
     min-height: 100vh ;
-    background: #121212;
+    background-color: #121212;
     background: url(asset/bg1.png);  
     background-position: center center; 
     background-size: cover;
@@ -57,7 +57,7 @@
 
 #about{
     min-height: 100vh;
-    background: #121212;
+    background-color: #121212;
     background: url(asset/bg2.png);
     background-size: cover;
     background-position: center;
