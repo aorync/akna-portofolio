@@ -199,24 +199,16 @@
     font-size: 42px;
   }
   
-  #about{
-    margin-top: 200px;
-  }
-  
   .title-about{
-    margin-top: 200px;
+    margin-top: 40%;
   }
 
   .desc-about {
     text-align: justify;
   }
   
-  #project{
-    margin-top: 200px;
-  }
-  
   .title-project{
-    margin-top: 200px;
+    margin-top: 40%;
   }
   
   #footer {
