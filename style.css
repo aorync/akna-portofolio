@@ -36,12 +36,11 @@
     background-size: cover;
 }
 
-.container{
+.container-home{
     display: flex;
     justify-content: center;
     align-items: center;
-     width: 100%;
-     gap: 164px;
+    gap: 64px;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -51,6 +50,9 @@
 } */
 
 .profile-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-weight: 700;
     font-size: 64px;
 }
@@ -114,6 +116,7 @@
 .box{
     display: flex;
     justify-content: center;
+    gap: 24px;
     margin-top: 24px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -130,6 +133,7 @@
 
 .text-project{
     font-size: 20px;
+    margin-bottom: 64px;
 }
 
 .card-project{
@@ -178,8 +182,22 @@
     color: white;
 }
 
-@media (max-width:901px) {
-    
+@media (max-width : 901px){
+
+    .container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#footer{
+    min-height: 20vh;
+    background: #323232;
+}
+
 }
 
 
