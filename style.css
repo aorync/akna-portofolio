@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64px;
+    gap: 86px;
     flex-wrap: wrap;
     flex-direction: row;
 }
