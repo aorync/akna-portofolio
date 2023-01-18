@@ -36,6 +36,13 @@
     background-size: cover;
 }
 
+.container{
+     width: 100%;
+    gap : 120px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .profile-context{
     margin-left: 120px;
 }
