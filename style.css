@@ -203,19 +203,12 @@
     font-weight: 600;
     font-size: 42px;
 }
-    
-#about {
-    min-height: 460px;
-}
+   
 
 .desc-about {
     text-align: justify;
 }
     
-#project {
-    min-height: 460px;
-}
-
 #footer{
     min-height: 20vh;
     background: #323232;
