@@ -198,15 +198,19 @@
     font-weight: 600;
     font-size: 42px;
   }
+  
+  .title-about{
+    margin-top: 200px;
+  }
 
   .desc-about {
     text-align: justify;
   }
-
-  #project {
-    min-height: 380px;
+  
+  .title-project{
+    margin-top: 200px;
   }
-
+  
   #footer {
     min-height: 20vh;
     background: #323232;
