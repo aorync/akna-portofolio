@@ -38,7 +38,6 @@
 
 .container{
      width: 100%;
-    gap : 120px;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -82,7 +81,7 @@
 
 .container-about{
     width: 100%;
-    gap : 120px;
+    gap : 24px;
     flex-wrap: wrap;
     flex-direction: row;
 }
