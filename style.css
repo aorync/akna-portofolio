@@ -114,7 +114,8 @@
 
 #project {
   min-height: 340vh;
-  background: #121212;
+  background-color: #121212;
+  background: url(asset/bg3.png);
 }
 
 .box {
